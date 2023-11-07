@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "option-pricing"
+version = "0.1.0"
+description = ""
+authors = ["benisbuzz <ben@danziger.uk>"]
+readme = "README.md"
+packages = [{include = "option_pricing"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10 <3.13"
+pandas = "^2.1.2"
+numpy = "^1.26.1"
+ipython = "^8.17.2"
+ipykernel = "^6.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
