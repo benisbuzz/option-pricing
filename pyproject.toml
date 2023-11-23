@@ -12,6 +12,11 @@ pandas = "^2.1.2"
 numpy = "^1.26.1"
 ipython = "^8.17.2"
 ipykernel = "^6.26.0"
+scipy = "^1.11.4"
+requests = "^2.31.0"
+python-dotenv = "^1.0.0"
+yfinance = "^0.2.32"
+matplotlib = "^3.8.2"
 
 
 [build-system]
